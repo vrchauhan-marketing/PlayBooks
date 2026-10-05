@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" font-family="'IBM Plex Mono', monospace, sans-serif">
+  <rect width="700" height="360" rx="12" fill="#faf8f5"/>
+  <rect x="18" y="18" width="664" height="324" rx="8" fill="none" stroke="#e2ddd5" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="40" y="52" fill="#132a24" font-size="14" font-weight="700" letter-spacing="0.05em">EARLY CUSTOMER SCORING RUBRIC</text>
+  <text x="40" y="72" fill="#66706b" font-size="11">Prioritize the prospect you can actually reach who feels active bleeding pain</text>
+
+  <!-- 4 Grid Cards -->
+  <g transform="translate(40, 95)">
+    <!-- Card 1: Reachable -->
+    <rect width="295" height="100" rx="8" fill="#ffffff" stroke="#e8e4dc"/>
+    <circle cx="28" cy="28" r="12" fill="#ecfdf5"/>
+    <text x="28" y="32" fill="#059669" font-size="11" font-weight="700" text-anchor="middle">01</text>
+    <text x="52" y="32" fill="#132a24" font-size="13" font-weight="700">REACHABLE TODAY</text>
+    <line x1="16" y1="52" x2="279" y2="52" stroke="#f0ece4" stroke-width="1"/>
+    <text x="16" y="70" fill="#dc2626" font-size="10">✕ Low: Buried in enterprise gatekeepers</text>
+    <text x="16" y="87" fill="#059669" font-size="10">✓ High: You can DM or email directly today</text>
+
+    <!-- Card 2: In Real Pain -->
+    <rect x="325" width="295" height="100" rx="8" fill="#ffffff" stroke="#e8e4dc"/>
+    <circle cx="353" cy="28" r="12" fill="#ecfdf5"/>
+    <text x="353" y="32" fill="#059669" font-size="11" font-weight="700" text-anchor="middle">02</text>
+    <text x="377" y="32" fill="#132a24" font-size="13" font-weight="700">IN ACTIVE PAIN</text>
+    <line x1="341" y1="52" x2="604" y2="52" stroke="#f0ece4" stroke-width="1"/>
+    <text x="341" y="70" fill="#dc2626" font-size="10">✕ Low: "Would be a nice-to-have tool"</text>
+    <text x="341" y="87" fill="#059669" font-size="10">✓ High: Costing them hours or $ every week</text>
+
+    <!-- Card 3: Forgiving -->
+    <rect y="120" width="295" height="100" rx="8" fill="#ffffff" stroke="#e8e4dc"/>
+    <circle cx="28" cy="148" r="12" fill="#ecfdf5"/>
+    <text x="28" y="152" fill="#059669" font-size="11" font-weight="700" text-anchor="middle">03</text>
+    <text x="52" y="152" fill="#132a24" font-size="13" font-weight="700">FORGIVING OF FLAWS</text>
+    <line x1="16" y1="172" x2="279" y2="172" stroke="#f0ece4" stroke-width="1"/>
+    <text x="16" y="190" fill="#dc2626" font-size="10">✕ Low: Expects a pristine finished product</text>
+    <text x="16" y="207" fill="#059669" font-size="10">✓ High: Happy to work with rough edges</text>
+
+    <!-- Card 4: Talks Back -->
+    <rect x="325" y="120" width="295" height="100" rx="8" fill="#ffffff" stroke="#e8e4dc"/>
+    <circle cx="353" cy="148" r="12" fill="#ecfdf5"/>
+    <text x="353" y="152" fill="#059669" font-size="11" font-weight="700" text-anchor="middle">04</text>
+    <text x="377" y="152" fill="#132a24" font-size="13" font-weight="700">TALKS BACK (FEEDBACK)</text>
+    <line x1="341" y1="172" x2="604" y2="172" stroke="#f0ece4" stroke-width="1"/>
+    <text x="341" y="190" fill="#dc2626" font-size="10">✕ Low: Goes silent after sign-up</text>
+    <text x="341" y="207" fill="#059669" font-size="10">✓ High: Tells you brutally what is broken</text>
+  </g>
+</svg>

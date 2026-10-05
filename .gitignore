@@ -1,0 +1,8 @@
+# Archives and text extracts
+*.zip
+extracted_pdf_text.txt
+GloriaFood Migration Checklists/
+
+# OS metadata
+.DS_Store
+Thumbs.db

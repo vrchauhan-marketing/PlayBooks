@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Open Sans, Helvetica, Arial, sans-serif">
+  <rect width="600" height="400" rx="14" fill="#f5f8fc"/>
+  <rect x="28" y="48" width="400" height="290" rx="22" fill="#333c44"/>
+  <rect x="46" y="64" width="364" height="258" rx="6" fill="#ffffff"/>
+  <path d="M52 64h352a6 6 0 0 1 6 6v24H46V70a6 6 0 0 1 6-6z" fill="#13212c"/>
+  <circle cx="64" cy="79" r="5" fill="#f08b18"/>
+  <text x="76" y="83" fill="#fff" font-size="11" font-weight="600">Incoming order</text>
+  <text x="398" y="83" fill="#9aa8b6" font-size="10" text-anchor="end">7:42 PM</text>
+  <rect x="46" y="94" width="110" height="228" fill="#f3f5f8"/>
+  <g font-size="10">
+    <rect x="46" y="94" width="110" height="44" fill="#fff3e3"/><rect x="46" y="94" width="4" height="44" fill="#f08b18"/>
+    <text x="58" y="112" fill="#333c44" font-weight="700">#4821 · Pickup</text><text x="58" y="127" fill="#d06d00" font-weight="600">NEW</text>
+    <text x="58" y="158" fill="#333c44" font-weight="600">#4820 · Delivery</text><text x="58" y="172" fill="#8a949e">In kitchen</text>
+    <text x="58" y="202" fill="#333c44" font-weight="600">#4819 · Pickup</text><text x="58" y="216" fill="#8a949e">Ready</text>
+  </g>
+  <g font-size="11" fill="#333c44">
+    <text x="172" y="118" font-size="14" font-weight="700">Order #4821</text>
+    <text x="172" y="134" fill="#8a949e" font-size="10">Maria L. · Pickup · Paid online</text>
+    <line x1="172" y1="144" x2="396" y2="144" stroke="#e3e8ee"/>
+    <text x="172" y="164" font-weight="600">1 × Pizza Margherita</text><text x="396" y="164" text-anchor="end">$9.00</text>
+    <text x="184" y="179" fill="#d06d00" font-size="10">• No onions</text>
+    <text x="172" y="199" font-weight="600">1 × Garden Salad</text><text x="396" y="199" text-anchor="end">$6.50</text>
+    <text x="184" y="214" fill="#d06d00" font-size="10">• Extra dressing, sauce on the side</text>
+    <line x1="172" y1="226" x2="396" y2="226" stroke="#e3e8ee"/>
+    <text x="172" y="244" font-weight="700">Total</text><text x="396" y="244" text-anchor="end" font-weight="700">$15.50</text>
+  </g>
+  <rect x="172" y="270" width="70" height="36" rx="5" fill="#e9edf2"/><text x="207" y="292" fill="#4c4c4c" font-size="11" font-weight="600" text-anchor="middle">Reject</text>
+  <rect x="252" y="270" width="144" height="36" rx="5" fill="#f08b18"/><text x="324" y="292" fill="#fff" font-size="11" font-weight="700" text-anchor="middle">Accept · 20 min</text>
+  <path d="M466 266 h88 v-170 l-11 8 -11-8 -11 8 -11-8 -11 8 -11-8 -11 8 -11-8z" fill="#ffffff" stroke="#dfe4ea"/>
+  <g font-family="IBM Plex Mono, Consolas, monospace" fill="#333c44" font-size="9">
+    <text x="476" y="122" font-weight="700">#4821 PICKUP</text>
+    <text x="476" y="140">1 MARGHERITA</text>
+    <text x="476" y="153" fill="#d06d00">  NO ONIONS</text>
+    <text x="476" y="171">1 GARDEN SALAD</text>
+    <text x="476" y="184" fill="#d06d00">  XTRA DRESSING</text>
+    <text x="476" y="197" fill="#d06d00">  SAUCE ON SIDE</text>
+    <text x="476" y="222">READY 20 MIN</text>
+  </g>
+  <rect x="448" y="250" width="124" height="80" rx="10" fill="#333c44"/>
+  <rect x="460" y="262" width="100" height="8" rx="4" fill="#13212c"/>
+  <circle cx="556" cy="314" r="4" fill="#7ed37e"/>
+</svg>

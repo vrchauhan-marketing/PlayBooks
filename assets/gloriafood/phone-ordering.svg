@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" font-family="Open Sans, Helvetica, Arial, sans-serif">
+  <rect width="600" height="400" rx="14" fill="#f5f8fc"/>
+  <g fill="#dfe6ee"><circle cx="40" cy="40" r="2"/><circle cx="56" cy="40" r="2"/><circle cx="72" cy="40" r="2"/><circle cx="40" cy="56" r="2"/><circle cx="56" cy="56" r="2"/><circle cx="72" cy="56" r="2"/><circle cx="540" cy="340" r="2"/><circle cx="556" cy="340" r="2"/><circle cx="540" cy="356" r="2"/><circle cx="556" cy="356" r="2"/></g>
+  <rect x="150" y="22" width="190" height="356" rx="26" fill="#ffffff" stroke="#333c44" stroke-width="6"/>
+  <rect x="215" y="32" width="60" height="7" rx="3.5" fill="#333c44"/>
+  <rect x="160" y="48" width="170" height="34" fill="#333c44"/>
+  <text x="172" y="70" fill="#fff" font-size="13" font-weight="600">Menu</text>
+  <text x="318" y="70" fill="#f08b18" font-size="12" font-weight="700" text-anchor="end">Cart · 2</text>
+  <rect x="160" y="82" width="170" height="70" fill="#f3d9b8"/>
+  <circle cx="245" cy="117" r="30" fill="#e8a54b"/><circle cx="245" cy="117" r="24" fill="#d2462b"/>
+  <g fill="#f6e7c3"><circle cx="236" cy="108" r="5"/><circle cx="254" cy="112" r="4.5"/><circle cx="242" cy="127" r="5"/><circle cx="257" cy="126" r="3.5"/></g>
+  <g fill="#3e7d3b"><circle cx="248" cy="104" r="2.5"/><circle cx="232" cy="121" r="2.5"/></g>
+  <g font-size="10">
+    <g transform="translate(170 166)"><circle cx="12" cy="12" r="12" fill="#d2462b"/><text x="32" y="10" fill="#333c44" font-weight="600">Pizza Margherita</text><text x="32" y="22" fill="#9aa3ad" font-size="8">Tomato, mozzarella, basil</text><text x="150" y="10" fill="#333c44" font-weight="700" text-anchor="end">$9.00</text></g>
+    <g transform="translate(170 200)"><circle cx="12" cy="12" r="12" fill="#e8a54b"/><text x="32" y="10" fill="#333c44" font-weight="600">Pizza Calzone</text><text x="32" y="22" fill="#9aa3ad" font-size="8">Ham, mushrooms, ricotta</text><text x="150" y="10" fill="#333c44" font-weight="700" text-anchor="end">$8.00</text></g>
+    <g transform="translate(170 234)"><circle cx="12" cy="12" r="12" fill="#7aa95c"/><text x="32" y="10" fill="#333c44" font-weight="600">Garden Salad</text><text x="32" y="22" fill="#9aa3ad" font-size="8">Greens, feta, olives</text><text x="150" y="10" fill="#333c44" font-weight="700" text-anchor="end">$6.50</text></g>
+    <g transform="translate(170 268)"><circle cx="12" cy="12" r="12" fill="#b9733a"/><text x="32" y="10" fill="#333c44" font-weight="600">Tiramisu</text><text x="32" y="22" fill="#9aa3ad" font-size="8">House made</text><text x="150" y="10" fill="#333c44" font-weight="700" text-anchor="end">$5.00</text></g>
+  </g>
+  <rect x="172" y="314" width="146" height="34" rx="5" fill="#f08b18"/>
+  <text x="245" y="336" fill="#fff" font-size="12" font-weight="700" text-anchor="middle">See menu &amp; order</text>
+  <g transform="translate(330 120)">
+    <rect width="230" height="78" rx="10" fill="#fff" stroke="#e3e8ee"/>
+    <circle cx="34" cy="39" r="18" fill="#f08b18"/>
+    <path d="M25 39l6 6 12-13" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="33" fill="#333c44" font-size="13" font-weight="700">Order #4821 accepted</text>
+    <text x="64" y="52" fill="#7b8590" font-size="11">Ready for pickup in 20 min</text>
+  </g>
+  <g transform="translate(372 226)">
+    <rect width="178" height="54" rx="10" fill="#333c44"/>
+    <text x="18" y="24" fill="#ffffff" font-size="11" font-weight="600">Apple Pay · Google Pay</text>
+    <text x="18" y="41" fill="#f08b18" font-size="10" font-weight="600">Faster mobile checkout</text>
+  </g>
+</svg>

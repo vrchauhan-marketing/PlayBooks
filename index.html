@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Playbooks by EnactOn — Field guides for operators</title>
+  <meta name="author" content="EnactOn Technologies">
+  <meta name="copyright" content="© 2026 EnactOn Technologies. All rights reserved.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&family=IBM+Plex+Mono:wght@400;500&family=Open+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-home">
+
+  <!-- Brand -->
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <span class="brand-text"><b class="brand-name"></b><i class="brand-tag"></i></span>
+  </a>
+
+  <!-- Left rail: one tick per book -->
+  <nav class="rail" aria-label="Playbooks">
+    <a class="rail-back" href="#/" aria-label="Back to all playbooks">&larr;</a>
+    <div class="rail-ticks"></div>
+  </nav>
+  <button class="help" aria-label="About">?</button>
+
+  <!-- Publisher -->
+  <a class="pub-link" href="#" target="_blank" rel="noopener"></a>
+  <footer class="site-foot"></footer>
+
+  <!-- HOME: the 3D stack -->
+  <main class="view view-home" aria-label="All playbooks">
+    <div class="stack-scene"><div class="stack"></div></div>
+    <p class="stack-hint">Select a volume</p>
+  </main>
+
+  <!-- DETAIL: one book -->
+  <main class="view view-detail" aria-label="Playbook"></main>
+
+  <!-- READER: the open book -->
+  <div class="reader" aria-hidden="true">
+    <div class="reader-bar">
+      <button class="r-btn r-close" aria-label="Close book">&larr; <span>Close</span></button>
+      <div class="r-title"></div>
+      <button class="r-btn r-toc-btn">Contents</button>
+    </div>
+    <div class="reader-stage">
+      <button class="r-nav r-prev" aria-label="Previous page">&#8249;</button>
+      <div class="open-book">
+        <div class="spread">
+          <div class="page page-left"></div>
+          <div class="page page-right"></div>
+        </div>
+      </div>
+      <button class="r-nav r-next" aria-label="Next page">&#8250;</button>
+    </div>
+    <div class="reader-foot">
+      <div class="r-progress"><span></span></div>
+      <div class="r-count"></div>
+    </div>
+    <aside class="r-toc" aria-label="Contents"></aside>
+    <div class="measure" aria-hidden="true"></div>
+  </div>
+
+  <div class="about" role="dialog" aria-modal="true" aria-label="About">
+    <div class="about-card">
+      <button class="about-close" aria-label="Close">&times;</button>
+      <h2 class="about-name"></h2>
+      <p class="about-text"></p>
+      <p class="about-pub"></p>
+      <p class="about-keys">Tip: in the reader use <kbd>&larr;</kbd> <kbd>&rarr;</kbd> to turn pages and <kbd>Esc</kbd> to close.</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+
+  <!-- Playbooks: registry first, then one script per playbook (last = top of stack) -->
+  <script src="playbooks/_registry.js"></script>
+  <script src="playbooks/gloriafood-migration.js"></script>
+  <script src="playbooks/first-100-customers.js"></script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
