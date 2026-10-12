@@ -76,7 +76,7 @@ Build a business around a clear customer and a reliable order journey. A restaur
 
 *Read the business model and economics first (pages 2–5), then operations and money flows (6–11), budgets and launch (12–17), checks and partner proof (18–23). Sources and evidence limits are on pages 24–25. All amounts are USD unless stated. Planning estimates are explicitly labelled; [VERIFY] marks unresolved local applicability.*
 
-# 1 The Opportunity: Why Restaurants Want Their Own Channel
+# The Opportunity: Why Restaurants Want Their Own Channel
 
 A direct ordering channel lets a restaurant accept orders through its own website or app. It can give the restaurant more control over the menu, repeat purchases and customer communication. It still needs a way to attract diners and fulfil each order.
 
@@ -106,7 +106,7 @@ Marketplaces provide discovery and can provide delivery. Moving an order to a di
 
 > **Recommendation, not a market forecast:** interview owners and observe a busy service before commissioning software. "Owning customer data" means lawful access and control, not unlimited permission to market to people.
 
-# 2 The Most Important Decision: Pick the Business Model First
+# The Most Important Decision: Pick the Business Model First
 
 White-label means selling a product under your own brand. SaaS, or software as a service, means customers pay to use hosted software. Marketplace means diners use one service to discover and order from many restaurants. A hybrid combines restaurant-branded ordering with a shared marketplace.
 
@@ -129,7 +129,7 @@ White-label means selling a product under your own brand. SaaS, or software as a
 
 > **Write this before building:** *"We serve [buyer] in [market], solve [problem], charge [method], and are responsible for [support and delivery scope]."* If the team cannot agree on this sentence, the feature list is premature.
 
-# 3 Revenue Models & Unit Economics
+# Revenue Models & Unit Economics
 
 ## How you make money: Choose a revenue model you can support
 
@@ -185,7 +185,7 @@ The $25 food sale is not all platform revenue. In this simplified example, remov
 
 > *All values on this page are invented teaching assumptions, not EnactOn results, provider fees or forecasts. Replace every input with evidence from your pilot.*
 
-# 4 The Order Journey: Follow One Order from Click to Kitchen
+# The Order Journey: Follow One Order from Click to Kitchen
 
 An order is a sequence of confirmed events. A successful payment does not prove that the kitchen has seen the ticket. Design and test each handoff separately.
 
@@ -212,7 +212,7 @@ Give every order one permanent identifier. Keep the payment, restaurant response
 
 > **Recommended design:** agree the payment capture point and acceptance timeout with your provider and restaurants. Automatic cancellation and refund timing are implementation choices, not assumed EnactOn features.
 
-# 5 Building Blocks & System Architecture
+# Building Blocks & System Architecture
 
 ## Building blocks for customers and restaurants
 
@@ -273,7 +273,7 @@ System architecture is the map of how software parts connect. This is a recommen
 
 For a first release, a well-structured single application may be easier to operate than many separate services. Ask the builder how it prevents duplicate actions, restores lost data and handles the busiest service period. Those answers matter more than a long list of technologies.
 
-# 6 Payments Made Simple & When Something Fails
+# Payments Made Simple & When Something Fails
 
 ## Payments made simple: Understand how the money moves
 
@@ -319,7 +319,7 @@ PCI DSS is the payment card industry's security standard for protecting card dat
 
 > **Daily finance check:** compare paid orders, refunded amounts, platform fees, restaurant balances and bank payouts. Investigate differences before the next settlement run. A dashboard balance is not proof that cash reached the bank.
 
-# 7 Build Versus Buy: Compare the Full Cost of Your Route
+# Build Versus Buy: Compare the Full Cost of Your Route
 
 White-label describes branding, not ownership. You can resell a hosted service or license a source-code foundation. Source code is the editable set of instructions that makes the software work. Total cost of ownership includes implementation and ongoing operation.
 
@@ -341,7 +341,7 @@ White-label describes branding, not ownership. You can resell a hosted service o
 > **Shutdown risk is real:** Oracle's page gives 31 March 2027 for GloriaFood's service end; GloriaFood's notice gives 30 April 2027. This unresolved difference is a reason to build a migration buffer, not select the later date. [1–2]  
 > Owning code reduces a key vendor dependency; it does not remove dependencies on cloud hosting, payment providers, app stores or people who maintain the system.
 
-# 8 Costs, Scope, Timeline & Acceptance Gates
+# Costs, Scope, Timeline & Acceptance Gates
 
 ## Budget for the build and the business
 
@@ -399,7 +399,7 @@ A working foundation can shorten development. It does not remove menu approval, 
 - Defer loyalty points, multiple consumer apps and broad POS integrations unless the pilot needs them.
 - Keep a change log showing the cost and schedule effect of every new request.
 
-# 9 Migration Playbook, Pilot Operations & Scaling
+# Migration Playbook, Pilot Operations & Scaling
 
 ## Migration playbook: Migrate menus without losing service
 
@@ -481,7 +481,7 @@ A dashboard should show where action is required. Do not confuse many registered
 
 Before hundreds of restaurants, automate repeatable onboarding, introduce least-necessary staff access, test backup restoration and simulate expected peak orders. Agree recovery time and tolerable data loss in plain business terms. Segment issues by restaurant, device and channel so a single large account does not hide smaller failures.
 
-# 10 Trust and Regional Rules: Build Compliance into the Workflow
+# Trust and Regional Rules: Build Compliance into the Workflow
 
 Decide who is responsible for the food sale, customer data, payment, delivery and tax. Put those responsibilities in contracts and reflect them in the software. A payment provider or software partner does not automatically take over every obligation.
 
@@ -501,7 +501,7 @@ Collect only needed data, limit staff access, record permitted marketing prefere
 > **Allergen data warning:** Allergen data needs restaurant approval and a change process. Do not let software infer that a dish is safe. [VERIFY]  
 > Additional local duties may apply to couriers, insurance, accessibility, consumer terms and platform fees. This is an implementation checklist, not jurisdiction-specific legal advice.
 
-# 11 What Can Go Wrong: Ten Mistakes That Become Expensive
+# What Can Go Wrong: Ten Mistakes That Become Expensive
 
 | Mistake | How to avoid it |
 |---|---|
@@ -516,7 +516,7 @@ Collect only needed data, limit staff access, record permitted marketing prefere
 | **9 Counting registered signups as paying customers** | Count active locations with regular orders and paid subscriptions. |
 | **10 Scaling restaurant count before the operating model works** | Fix missed orders, support load and reconciliation discrepancies on the pilot before adding locations. |
 
-# 12 Founder & Release Checklists
+# Founder & Release Checklists
 
 ## Founder decision checklist: Before you start
 
@@ -584,7 +584,7 @@ First live-service review: _____________________________________________________
 
 > *Do not launch with unresolved payment loss, cross-restaurant access or silent order-loss defects. Record non-critical issues with an owner and date rather than hiding them in a general "known issues" list.*
 
-# 13 Experience Relevant to This Decision: How EnactOn Helps
+# Experience Relevant to This Decision: How EnactOn Helps
 
 EnactOn builds software for operators who want their own ordering platform or agency offering. The facts below describe relevant experience; they are not a universal guarantee that every project will succeed. Commercial terms, source-code rights and third-party dependencies are agreed in writing before contracts are signed.
 
@@ -602,7 +602,7 @@ The best next step is to test that foundation against your business model. Ask f
 
 > *These facts do not establish included Stripe/Razorpay integrations, a courier fleet, every POS connector, regulatory certification or a promised delivery date. Confirm those separately where required.*
 
-# 14 Book a Scope Call or Request a Live Demo
+# Book a Scope Call or Request a Live Demo
 
 ## Turn the guide into a buying decision
 

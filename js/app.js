@@ -125,8 +125,10 @@
   }
 
   /* ---------------- Markdown → book HTML ---------------- */
+  const cleanTitle = (t) => (t || "").replace(/^\d+[\s.:–-]+/, "").trim();
+
   function chaptersOf(book) {
-    return [...book.content.matchAll(/^#\s+(.+)$/gm)].map((m) => m[1].trim());
+    return [...book.content.matchAll(/^#\s+(.+)$/gm)].map((m) => cleanTitle(m[1]));
   }
 
   function bookHTML(book) {
@@ -136,6 +138,8 @@
     tmp.innerHTML = md;
     $$("h1", tmp).forEach((h, i) => {
       h.dataset.ch = i;
+      const firstText = Array.from(h.childNodes).find((n) => n.nodeType === Node.TEXT_NODE);
+      if (firstText) firstText.textContent = cleanTitle(firstText.textContent);
       h.insertAdjacentHTML("afterbegin", `<span class="ch-num">Chapter ${i + 1}</span>`);
       const img = (book.chapterImages || [])[i];
       if (img) h.insertAdjacentHTML("beforebegin", `<figure class="ch-photo"><img src="${esc(img)}" alt=""></figure>`);
